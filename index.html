@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wORd sCRAMble</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p> Instructions <br> 
+        <details> 1.click first to refresh word to start game <br>
+                  2.if you getting the repeated word then click to refresh it <br>
+                  3.on correct word score increases <br>
+                  4.on wrong word score decreses <br>
+                  5. on score become zero you lose the game</details>
+    </p>
+    <!-- button for refresh -->
+    <button class="generate"> REFRESH</button>
+    <!-- element for jumble word,hint -->
+    <p class="scrambleword">Let,s Begin Adventure</p>
+    <p class="hint">Hint</p>
+    <!-- correct word input -->
+   Correct word <input type="text" placeholder="enter the correct word">
+   <br> <br>
+   <!-- submit button -->
+   <button class="submit">SUBMIT</button>
+   <!-- score counter -->
+   <p class="score">Score:0</p>
+   <div class="inc"></div>
+   <div class="dec"></di>
+</body>
+<!-- external js -->
+<script src="main.js"></script>
+</html>

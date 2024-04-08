@@ -1,0 +1,28 @@
+/* jumbled word styling */
+.scrambleword
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;  
+} 
+/* some style to body */
+body{
+    background-color: black;
+    color:white;
+}
+/* making hint to more visble to user */
+.hint
+{
+    animation: cc 5s ease infinite;
+}
+/* animation for hints */
+@keyframes cc {
+    0%{
+        color:rgb(232, 246, 37);
+        font-weight: bolder;
+    }
+    50%{
+        color:rgb(255, 14, 187);
+        font-style: italic;
+        
+    }
+}
